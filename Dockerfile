@@ -1,4 +1,4 @@
-#update:09-07-2024
+#update:17-08-2024
 
 FROM php:8.4-rc-fpm
 RUN apt-get update && apt-get install -y \
