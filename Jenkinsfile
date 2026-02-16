@@ -6,7 +6,7 @@ node {
       }     
       stage('Build image') {         
        
-            app = docker.build("capino/php8.3-fpm")    
+            app = docker.build("capino/php8.4-fpm")    
        }     
       stage('Test image') {           
             app.inside {            
